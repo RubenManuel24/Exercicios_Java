@@ -1,0 +1,46 @@
+
+package herançaModificadorDeAcesso;
+
+import herança.*;
+
+public class Aluno extends Pessoa{
+    
+    //Atributos
+   
+    private String curso;
+    private double[] notas=new double[4];
+    
+    public void verificarAcesso(){
+    this.nomeVisibilidade
+    
+    
+    }
+   
+    //Métoods especiaias
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
+    }
+
+    public double[] getNotas() {
+        return notas;
+    }
+
+    public void setNotas(double[] notas) {
+        this.notas = notas;
+    }
+    
+    //Metodos
+    
+    public int calcularMedia(){
+     return 0;
+    }
+    
+    public boolean verificarAprovado(){
+     return true;
+    }
+}
